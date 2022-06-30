@@ -107,14 +107,6 @@ body{
     color: #121212;
     margin-bottom: 16px;
 }
-.title {
-    font-family: 'CalSans';
-font-style: normal;
-font-weight: 600;
-font-size: 44px;
-line-height: 73px;
-color: #000000;
-}
 .main__text {
     font-style: normal;
     font-weight: 500;
@@ -145,10 +137,14 @@ color: #000000;
     right: -120px;
     padding: 0px 0px 80px 0px;
 }
-@media:(max-width: 760px) {
-.main__decor {
-    Display: none;
-}
+@media (max-width: 760px) {
+    .main__decor {
+        display: none;
+        position: absolute;
+        top: -153px;
+        right: -120px;
+        padding: 0px 0px 80px 0px;
+    }    
 }
 /* ============================================================================== */
 .store {
@@ -179,8 +175,12 @@ color: #000000;
     display: flex;
     justify-content: space-between;
     margin: 32px 0px;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;     
+}
+@media (max-width: 760px) {
+    .actions__row {      
+        flex-direction: column;    
+    }     
 }
 .actions__subtitle {
     display: flex;
@@ -268,10 +268,10 @@ color: #000000;
     width: 220px;
 }
 .name_1 {
-    background: url(..img/categories/Rectangle_1.png); 
+    background: url(/img/categories/Rectangle_1.png); 
 }
 .name_2 {
-    background: url(img/categories/Rectangle_2.png); 
+    background: url(/img/categories/Rectangle_2.png); 
 }
 .name_3 {
     background: url(/img/categories/Rectangle_3.png); 
@@ -323,7 +323,14 @@ color: #000000;
     padding: 80px 0px 80px 0px;
     color: #fff;
 }
-
+.title {
+    font-family: 'CalSans';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 73px;
+color: #000000;
+}
 .rhythm__row {
     display: flex;
     justify-content: space-between;
@@ -373,7 +380,7 @@ color: #000000;
 }
 .what__title {
     margin: 120px 0px 100px 0px;
-    
+    color: #fff;
 }
 .what__content {
       display: flex;
