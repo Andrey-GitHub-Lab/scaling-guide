@@ -263,10 +263,10 @@ color: #000000;
     width: 220px;
 }
 .name_1 {
-    background: url(/img/categories/Rectangle_1.png); 
+    background: url(..img/categories/Rectangle_1.png); 
 }
 .name_2 {
-    background: url(/img/categories/Rectangle_2.png); 
+    background: url(img/categories/Rectangle_2.png); 
 }
 .name_3 {
     background: url(/img/categories/Rectangle_3.png); 
