@@ -1,0 +1,203 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>CSS. Часть №8 (позиционирование)</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<a href="" class="header__logo"><img src="img/logo_1.svg" alt="logo"></a>
+					<nav class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Store</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Collections</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Support</a></li>
+						</ul>
+					</nav>
+				</div>				
+			</header>
+			<main class="page">
+				<div class="page__main main">
+					<div class="main__container">
+						<div class="main__content">
+							<h1 class="main__title">Browse top quality <span>Guitars</span> online</h1>
+							<p class="main__text">Explore 50k+ latest collections of branded guitars online with Rhythm.</p>
+							<div class="main__actions actions-main">
+								<a href="#" class="actions-main__button">Get the App</a>
+								<div class="actions-main__icon"><img src="img/main/google logo.png" alt="Google"></div>
+								<div class="actions-main__icon"><img src="img/main/Apple logo.png" alt="Apple"></div>															
+							</div>
+						</div>
+						<div class="main__decor">
+							<img src="img/main/fone.png" alt="Гитара">
+						</div>
+					</div>
+				</div>
+				<div class="store">
+					<div class="store__container">
+									<h2 class="store__title title">Check out the <span>Store</span> </h2>
+							<div class="store__actions">								
+									<div class="actions__subtitle">
+										<div class="actions-subtitle__left">NEW ON THE BOARD</div>
+										<div class="actions-subtitle__rith"><a href="#">view all</a></div>									
+									</div>								
+								<div class="actions__row">
+									<div class="actions__item">
+										<a href="#" class="actions__imege"><img src="img/store/unsplash_1.png" alt=""></a>
+										<a href="#" class="actions__name">The Essential Les Paul</a>
+										<a href="#" class="actions__price">$1,299.00</a>			
+									</div>								
+									<div class="actions__item">
+										<a href="#" class="actions__imege"><img src="img/store/unsplash_2.png" alt=""></a>
+										<a href="#" class="actions__name">J-45 Standard</a>
+										<a href="#" class="actions__price">$1,699.00</a>			
+									</div>								
+									<div class="actions__item">
+										<a href="#" class="actions__imege"><img src="img/store/unsplash_3.png" alt=""></a>
+										<a href="#" class="actions__name">Hummingbird Standard</a>
+										<a href="#" class="actions__price">$2,099.00</a>			
+									</div>								
+								</div>							
+								<div class="actions__subtitle">
+										<div class="actions-subtitle__left">TOP SELLING</div>
+										<div class="actions-subtitle__rith"><a href="#">view all</a></div>									
+									</div>
+								<div class="actions__row">
+									<div class="actions__item">
+										<a href="#" class="actions__imege"><img src="img/store/unsplash_4.png" alt=""></a>
+										<a href="#" class="actions__name">Active Precision Bass® PH V</a>
+										<a href="#" class="actions__price">$4,199.00</a>			
+									</div>								
+									<div class="actions__item">
+										<a href="#" class="actions__imege"><img src="img/store/unsplash_5.png" alt=""></a>
+										<a href="#" class="actions__name">Redondo Special</a>
+										<a href="#" class="actions__price">$2,800.00</a>			
+									</div>								
+									<div class="actions__item">
+										<a href="#" class="actions__imege"><img src="img/store/unsplash_6.png" alt=""></a>
+										<a href="#" class="actions__name">Professional II Stratocaster®</a>
+										<a href="#" class="actions__price">$3,199.00</a>			
+									</div>								
+								</div>							
+							</div>
+						</div>								
+					</div>
+				<div class="categories">
+					<div class="categories__container">
+						<div class="categories__title title">Choose based on <span>Categories</span></div>
+						<div class="categories__actions">
+							<div class="categories__actions-row">
+								<div class="categories__actions__item">									
+									<a href="#" class="categories__actions__name name_1">Acoustic</a>								
+								</div>															
+								<div class="categories__actions__item">									
+									<a href="#" class="categories__actions__name name_2">Electric</a>								
+								</div>															
+								<div class="categories__actions__item">									
+									<a href="#" class="categories__actions__name name_3">Basses</a>								
+								</div>															
+								<div class="categories__actions__item">									
+									<a href="#" class="categories__actions__name name_4">Collections</a>								
+								</div>															
+							</div>
+						</div>																		
+					</div>					
+				</div>
+				<div class="brands">
+					<div class="brands__container">
+						<div class="brands__title title">Featuring the Best <span> Brands</span></div>
+						<div class="brands__body">
+							<div class="brands-body__colum">
+								<div class="brands-body__imge">
+									<img src="img/brands/brands_1.png" alt="">									
+								</div>
+								<div class="brands-body__imge">
+									<img src="img/brands/brands_2.png" alt="">
+								</div>
+								<div class="brands-body__imge">
+									<img src="img/brands/brands_3.png" alt="">									
+								</div>
+								<div class="brands-body__imge">
+									<img src="img/brands/brands_4.png" alt="">
+								</div>													
+							</div>														
+																		
+							<div class="brands-body__colum">
+								<div class="brands-body__imge">
+									<img src="img/brands/brands_5.png" alt="">									
+								</div>
+								<div class="brands-body__imge">
+									<img src="img/brands/brands_6.png" alt="">
+								</div>
+								<div class="brands-body__imge">
+									<img src="img/brands/brands_7.png" alt="">									
+								</div>
+								<div class="brands-body__imge">
+									<img src="img/brands/brands_8.png" alt="">
+								</div>															
+							</div>													
+						</div>						
+					</div>					
+				</div>
+				<div class="rhythm">
+					<div class="rhythm__container">
+						<div class="rhythm__title title">Why try<span>Rhythm?</span></div>
+						<div class="rhythm__row">
+							<div class="rhythm__row-items">
+								<div class="rhythm__row-imge">
+									<img src="img/rhythm/icon_1.svg" alt="">
+								</div>
+								<div class="rhythm__row-subtitle">Smooth Browsing</div>
+								<div class="rhythm__row-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>							
+							</div>						
+							<div class="rhythm__row-items">
+								<div class="rhythm__row-imge">
+									<img src="img/rhythm/icon_2.svg" alt="">
+								</div>
+								<div class="rhythm__row-subtitle">EASY Delivery </div>
+								<div class="rhythm__row-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>							
+							</div>						
+							<div class="rhythm__row-items">
+								<div class="rhythm__row-imge">
+									<img src="img/rhythm/icon_3.svg" alt="">
+								</div>
+								<div class="rhythm__row-subtitle">SwiFT PAYMENTS</div>
+								<div class="rhythm__row-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>							
+							</div>						
+						</div>					
+					</div>				
+				</div>
+				<div class="what">
+					<div class="what__container">
+						<div class="what__title title">What our <span>customer’s</span>say</div>
+					<div class="what__content">
+						<div class="what__content_imege">
+							<img src="img/what/foto.png" alt="">
+						</div>
+						<div class="what__content_content">
+							<div class="what__content_text">“The Quality and Delivery is always on time, being a professional guitarist myself I love the customer service the brand provides, highly recommend Rhythm anytime.”</div>
+							<div class="what__content_title">Ryan Wels</div>
+							<div class="what__content_subtitle">PROFESSIONAL GUITARIST</div>							
+						</div>												
+					</div>						
+					</div>					
+				</div>
+			</main>
+			<footer class="footer">sdsa</footer>			
+		</div>
+		</div>
+	</body>
+</html>
